@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+    
+        <title> sign up </title>
+    
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/droid-arabic-kufi" type="text/css"/>
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+        <link href="styleLogin.css" rel="stylesheet">
+
+
+        <style>
+          body{
+            background-image: url(../img/StartImg2.jpg);
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            font-family: 'DroidArabicKufiRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+          }
+          .text-white{
+            color: white;
+          }
+        </style>
+      </head>
+<body class="text-center">
+
+        
+<main class="form-signin">
+    <form action="process-signup.php"  method="post" id="signup" novalidate>
+        <img class="mb-4" src="../img/logo.png" alt="" width="200" height="100">
+      
+      <h1 class="h3 mb-3 fw-normal">انشاء حساب</h1>
+  
+      <div class="form-floating">
+        <label for="name">الاسم</label>
+        <input id="name" type="text" class="form-control"  placeholder="Ali" name="name">
+      </div>
+
+      <div class="form-floating">
+        <label for="email">الايميل</label>
+        <input class="form-control" type="email" id="email" name="email" placeholder="abc@gmail.com">
+    </div>
+
+      <div class="form-floating">
+         <label for="password">كلمة المرور</label>
+         <input class="form-control" type="password" id="password" name="password" placeholder="********">
+      </div>
+
+      <div class="form-floating">
+        <label for="password_confirmation"> تأكيد كلمة المرور</label>
+        <input class="form-control" type="password" id="password_confirmation" name="password_confirmation" placeholder="********">
+     </div>
+
+      <button id="button" class="w-100 btn btn-lg btn-primary" type="submit" > تسجيل</button>
+        <br> <br>
+            <div class="mb-3 ">
+          <a href="login.php">اذا كنت تملك حساب للدخول لحسابك اضغط هنا </a>
+      </div>
+  
+    </form>
+  </main>
+  
+
+</body>
+</html>
