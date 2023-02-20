@@ -1,0 +1,42 @@
+body  { 
+    font-family: 'DroidArabicKufiRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+ }
+     .header {
+      background-image:url(Cathedral-Rock-sunset-hike-sedona-arizona-the-mandagies-1-1.jpg);
+      background-size: cover;
+      border-radius: 10px;
+      height: 150px; /* You must set a specified height */
+   background-position: center; /* Center the image */;
+      background-repeat: no-repeat;
+      margin: 20px;
+      color: white;
+       
+     }
+     footer{
+        background-color: #2E2B47;
+        padding: 10px;
+    }
+     #search{
+                 width :50%;
+                 border-radius:10px;
+                 color: black;
+                 
+             }
+    h2,h3{
+        text-align: center;
+        
+    }
+    .title{
+        color: white;
+        margin-bottom: 150px;
+    }
+
+.card{
+    width: 255px;
+}
+.card-img-top {
+    height: 200px;
+     width: 250px;
+}
